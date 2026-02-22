@@ -2,7 +2,17 @@ import { cn } from "@/lib/utils";
 import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 
-const Logo = ({ className }: { className?: string }) => {
+interface LogoProps {
+  className?: string;
+  variant?: "default" | "sm";
+  lang?: string;
+  logoText?: {
+    first: string;
+    second: string;
+  };
+}
+
+const Logo = ({ className, lang, logoText }: LogoProps) => {
   return (
     <Link href={"/"}>
       <div
@@ -20,10 +30,10 @@ const Logo = ({ className }: { className?: string }) => {
         <div className="flex items-center">
           <h2 className="text-2xl font-bold uppercase tracking-wide font-sans">
             <span className="text-shop_dark_green dark:text-shop_light_green group-hover:text-shop_light_green hoverEffect">
-              Shop
+              {logoText?.first}
             </span>
             <span className="bg-linear-to-r from-shop_light_green to-shop_orange bg-clip-text text-transparent group-hover:from-shop_dark_green dark:group-hover:from-shop_orange group-hover:to-shop_light_green hoverEffect">
-              cart
+              {logoText?.second}
             </span>
           </h2>
           {/* Decorative Element */}

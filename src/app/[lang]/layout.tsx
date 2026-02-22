@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
+import { i18n, Locale } from "../../../i18n-config";
+import { getDictionary } from "@/lib/dictionary";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -13,13 +15,13 @@ const poppins = Poppins({
 });
 
 const raleway = localFont({
-  src: "../fonts/Raleway.woff2",
+  src: "../../fonts/Raleway.woff2",
   variable: "--font-raleway",
   weight: "100 900",
 });
 
 const opensans = localFont({
-  src: "../fonts/Open Sans.woff2",
+  src: "../../fonts/Open Sans.woff2",
   variable: "--font-open-sans",
   weight: "100 800",
 });
@@ -53,11 +55,19 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
+}
+
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ lang: string }>;
 }>) {
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang as Locale);
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>

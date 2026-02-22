@@ -1,0 +1,16 @@
+{
+  "header": {
+    "menu": {
+      "home": "Accueil",
+      "shop": "Boutique",
+      "deals": "Offres",
+      "orders": "Commandes",
+      "contact": "Contact",
+      "blog": "Le Blog"
+    }
+  },
+  "logo": {
+    "first": "Bou",
+    "second": "tique"
+  }
+}

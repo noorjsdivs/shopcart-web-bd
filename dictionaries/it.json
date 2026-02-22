@@ -1,0 +1,16 @@
+{
+  "header": {
+    "menu": {
+      "home": "Home",
+      "shop": "Negozio",
+      "deals": "Offerte",
+      "orders": "Ordini",
+      "contact": "Contatti",
+      "blog": "Il Blog"
+    }
+  },
+  "logo": {
+    "first": "Nego",
+    "second": "zio"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "header": {
+    "menu": {
+      "home": "Home",
+      "shop": "Shop",
+      "deals": "Deals",
+      "orders": "Orders",
+      "contact": "Contact",
+      "blog": "Blog"
+    }
+  },
+  "logo": {
+    "first": "Shop",
+    "second": "cart"
+  }
+}
