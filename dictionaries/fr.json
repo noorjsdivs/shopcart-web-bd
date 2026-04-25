@@ -1,4 +1,16 @@
 {
+  "wishlist": {
+    "title": "Ma liste de souhaits",
+    "subtitle": "Enregistrez vos articles préférés pour plus tard",
+    "loginDetails": "Connectez-vous pour enregistrer et voir vos produits préférés. Ne manquez pas les articles que vous aimez !"
+  },
+  "cart": {
+    "title": "Panier"
+  },
+  "logo": {
+    "first": "Bou",
+    "second": "tique"
+  },
   "header": {
     "menu": {
       "home": "Accueil",
@@ -7,10 +19,286 @@
       "orders": "Commandes",
       "contact": "Contact",
       "blog": "Le Blog"
+    },
+    "auth": {
+      "welcome": "Bienvenue",
+      "signIn": "Se connecter",
+      "signUp": "S'inscrire",
+      "welcomeBack": "Bon retour !",
+      "createAccount": "Créer un compte",
+      "signInDescription": "Connectez-vous pour accéder à votre compte",
+      "signUpDescription": "Rejoignez-nous pour commencer vos achats"
+    },
+    "search": {
+      "placeholder": "Rechercher des produits..."
+    },
+    "language": {
+      "select": "Choisir la langue",
+      "en": "Anglais",
+      "it": "Italien",
+      "fr": "Français",
+      "hi": "Hindi",
+      "ar": "Arabe"
     }
   },
-  "logo": {
-    "first": "Bou",
-    "second": "tique"
+  "loading": {
+    "auth": {
+      "title": "Chargement de l'authentification...",
+      "description": "Veuillez patienter pendant que nous préparons votre expérience de connexion."
+    },
+    "main": {
+      "step1": "Préparation de votre expérience d'achat...",
+      "step2": "Chargement des produits...",
+      "step3": "Configuration des options de livraison...",
+      "step4": "Presque prêt !",
+      "description": "Veuillez patienter pendant que nous préparons votre expérience de magasinage.",
+      "complete": "Terminé"
+    }
+  },
+  "home": {
+    "featuredProducts": {
+      "title": "Produits Vedettes",
+      "description": "Découvrez notre sélection de produits premium soigneusement choisis",
+      "view": "Vue:",
+      "sortBy": "Trier par...",
+      "products": "produits",
+      "filters": "Filtres",
+      "advancedFilters": "Filtres Avancés",
+      "priceRange": "Gamme de Prix",
+      "stockStatus": "État des Stocks",
+      "quality": "Qualité du Produit",
+      "apply": "Appliquer les Filtres",
+      "clear": "Effacer les Filtres",
+      "loadMore": "Charger Plus de Produits"
+    },
+    "popularCategories": {
+      "title": "Catégories Populaires",
+      "description": "Explorez nos catégories de produits les plus populaires et trouvez ce dont vous avez besoin",
+      "browseAll": "Parcourir Toutes les Catégories",
+      "explore": "Explorer",
+      "thisCategory": "cette catégorie",
+      "shopNow": "Acheter Maintenant",
+      "stats": {
+        "categories": "Catégories",
+        "products": "Produits",
+        "support": "Support"
+      }
+    },
+    "shopFeatures": {
+      "title": "Pourquoi Acheter Chez Nous",
+      "description": "Découvrez le meilleur du shopping en ligne avec notre engagement envers la qualité, la sécurité et un service exceptionnel",
+      "learnMore": "Cliquez pour en savoir plus",
+      "stats": {
+        "happyCustomers": "Clients Heureux",
+        "productsSold": "Produits Vendus",
+        "satisfactionRate": "Taux de Satisfaction",
+        "customerSupport": "Support Client"
+      },
+      "secureShopping": {
+        "title": "Achats Sécurisés",
+        "description": "Paiement 100% sécurisé avec cryptage SSL"
+      },
+      "freeDelivery": {
+        "title": "Livraison Gratuite",
+        "description": "Livraison gratuite pour les commandes de plus de 50€"
+      },
+      "easyPayments": {
+        "title": "Paiements Faciles",
+        "description": "Plusieurs options de paiement disponibles"
+      },
+      "support247": {
+        "title": "Support 24/7",
+        "description": "Un support client dédié à tout moment"
+      },
+      "easyReturns": {
+        "title": "Retours Faciles",
+        "description": "Politique de retour sans tracas de 30 jours"
+      },
+      "qualityAssured": {
+        "title": "Qualité Assurée",
+        "description": "Produits 100% authentiques garantis"
+      },
+      "fastProcessing": {
+        "title": "Traitement Rapide",
+        "description": "Commandes traitées sous 24 heures"
+      },
+      "bestPrices": {
+        "title": "Meilleurs Prix",
+        "description": "Des prix compétitifs avec de superbes offres"
+      }
+    },
+    "latestBlog": {
+      "title": "Derniers Articles du Blog",
+      "description": "Restez informé de nos derniers conseils, astuces et actualités du secteur",
+      "viewAll": "Voir Tous les Articles",
+      "readMore": "Lire la Suite"
+    },
+    "shopByBrands": {
+      "title": "Acheter par Marque",
+      "description": "Découvrez les produits de vos marques de confiance préférées",
+      "exploreAll": "Explorer Toutes les Marques",
+      "trusted": "marques de confiance et ce n'est pas fini",
+      "whyChooseUs": "Pourquoi Nous Choisir ?",
+      "experience": "Nous offrons la meilleure expérience d'achat avec des services premium",
+      "customerTrusted": "Approuvé par des milliers de clients dans le monde entier",
+      "freeDelivery": "Livraison Gratuite",
+      "freeDeliveryDesc": "Livraison gratuite à partir de 100€",
+      "freeReturn": "Retour Gratuit",
+      "customerSupport": "Service Client",
+      "customerSupportDesc": "Service client amical 24/7",
+      "moneyBack": "Garantie de Remboursement",
+      "qualityChecked": "Qualité vérifiée par notre équipe"
+    }
+  },
+  "userDropdown": {
+    "walletBalance": "Solde du Portefeuille",
+    "myProfile": "Mon Profil",
+    "myOrders": "Mes Commandes",
+    "wishlist": "Liste de Souhaits",
+    "dashboard": "Tableau de Bord",
+    "notifications": "Notifications",
+    "settings": "Paramètres",
+    "employeeDashboard": "Tableau de Bord Employé",
+    "helpSupport": "Aide et Support",
+    "adminPanel": "Panneau d'Administration",
+    "signOut": "Se Déconnecter",
+    "language": "Langue"
+  },
+  "premium": {
+    "title": "Passer Premium",
+    "subtitle": "Débloquez toutes les fonctionnalités Premium",
+    "cta": "Passer à Premium Maintenant",
+    "tooltip": "Passer à Premium",
+    "footer": {
+      "oneTime": "Paiement unique",
+      "lifetime": "Accès à vie",
+      "updates": "Toutes les mises à jour incluses",
+      "secure": "Paiement Sécurisé",
+      "support": "Support Premium"
+    },
+    "features": {
+      "analytics": {
+        "title": "Tableau de Bord Analytique Avancé",
+        "description": "Informations et rapports commerciaux complets"
+      },
+      "employees": {
+        "title": "Système de Gestion des Employés",
+        "description": "Portail employés multi-rôles avec permissions"
+      },
+      "reviews": {
+        "title": "Outils de Gestion des Avis",
+        "description": "Modérer et gérer les avis clients"
+      },
+      "subscription": {
+        "title": "Gestion des Abonnements",
+        "description": "Outils de newsletter et campagnes email"
+      },
+      "insights": {
+        "title": "Rapports et Informations Clients",
+        "description": "Analyses détaillées et comportement client"
+      },
+      "export": {
+        "title": "Exporter les Données vers Excel/CSV",
+        "description": "Exporter toutes les données pour analyse externe"
+      },
+      "branding": {
+        "title": "Marque Admin Personnalisée",
+        "description": "Personnalisez votre panneau d'administration"
+      },
+      "support": {
+        "title": "Support et Mises à Jour Prioritaires",
+        "description": "Support rapide et accès anticipé aux fonctionnalités"
+      }
+    }
+  },
+  "shop": {
+    "title": "Boutique Produits",
+    "description": "Découvrez des produits étonnants adaptés à vos besoins",
+    "clearFilters": "Effacer Tous les Filtres",
+    "activeFilters": "Filtres actifs :",
+    "category": "Catégorie :",
+    "brand": "Marque :",
+    "price": "Prix :",
+    "showFilters": "Afficher les Filtres",
+    "hideFilters": "Masquer les Filtres",
+    "filters": "Filtres",
+    "applyFilters": "Appliquer les Filtres",
+    "productsFound": "Produit(s) Trouvé(s)",
+    "showingAll": "Affichage de tous les produits disponibles"
+  },
+  "deals": {
+    "hero": {
+      "badge": "OFFRES CHAUDES",
+      "upToOff": "Jusqu'à {maxDiscount}% de RÉDUCTION",
+      "title": "Offres Chaudes de la Semaine",
+      "description": "Ne manquez pas ces offres incroyables à durée limitée ! Économisez gros sur vos produits préférés avec des réductions allant jusqu'à {maxDiscount}%. Stock limité.",
+      "stats": {
+        "products": "Produits",
+        "avgDiscount": "Réduction Moyenne",
+        "happyCustomers": "Clients Heureux"
+      }
+    },
+    "features": {
+      "lightning": {
+        "title": "Ventes Flash",
+        "description": "Ventes flash avec offres à durée limitée"
+      },
+      "premium": {
+        "title": "Qualité Premium",
+        "description": "Produits les mieux notés avec les meilleures critiques"
+      },
+      "favorites": {
+        "title": "Favoris des Clients",
+        "description": "Articles les plus aimés par nos clients"
+      },
+      "limited": {
+        "title": "Temps Limité",
+        "description": "Dépêchez-vous ! Ces offres ne dureront pas longtemps"
+      }
+    },
+    "collection": {
+      "title": "Collection Offres Chaudes",
+      "description": "Découvrez des offres incroyables sur des produits premium. Quantités limitées disponibles à ces prix spéciaux.",
+      "noDeals": {
+        "title": "Aucune Offre Disponible Pour le Moment",
+        "description": "Revenez bientôt pour des offres et des réductions incroyables !",
+        "button": "Parcourir Tous les Produits"
+      }
+    },
+    "cta": {
+      "title": "Ne Manquez Pas Ces Offres Incroyables !",
+      "description": "Abonnez-vous à notre newsletter pour être informé des ventes flash, des offres exclusives et des nouveaux arrivages.",
+      "explore": "Explorer Tous les Produits",
+      "subscribe": "S'abonner aux Offres"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Notre Blog",
+      "title": "Histoires, Conseils et Idées",
+      "description": "Découvrez les dernières tendances, les conseils d'experts et les histoires en coulisses de notre équipe. Restez informé avec notre collection d'articles.",
+      "stats": {
+        "articles": "Articles",
+        "readers": "Lecteurs",
+        "authors": "Auteurs"
+      }
+    },
+    "list": {
+      "title": "Derniers Articles",
+      "description": "Restez à jour avec nos derniers articles et idées",
+      "readMore": "Lire la Suite",
+      "minRead": "min de lecture",
+      "noPosts": {
+        "title": "Aucun Article de Blog Pour l'Instant",
+        "description": "Nous travaillons sur du contenu incroyable. Revenez bientôt !",
+        "button": "Retour à l'Accueil"
+      }
+    },
+    "newsletter": {
+      "title": "Restez Informé",
+      "description": "Abonnez-vous à notre newsletter et ne manquez jamais une mise à jour. Recevez les derniers articles, conseils et idées directement dans votre boîte de réception.",
+      "subscribe": "S'abonner à la Newsletter",
+      "browse": "Parcourir les Catégories"
+    }
   }
 }

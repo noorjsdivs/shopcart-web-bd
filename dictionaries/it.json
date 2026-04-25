@@ -1,4 +1,16 @@
 {
+  "wishlist": {
+    "title": "La mia lista dei desideri",
+    "subtitle": "Salva i tuoi articoli preferiti per dopo",
+    "loginDetails": "Accedi per salvare e visualizzare i tuoi prodotti preferiti. Non perdere gli articoli che ami!"
+  },
+  "cart": {
+    "title": "Carrello"
+  },
+  "logo": {
+    "first": "Nego",
+    "second": "zio"
+  },
   "header": {
     "menu": {
       "home": "Home",
@@ -7,10 +19,286 @@
       "orders": "Ordini",
       "contact": "Contatti",
       "blog": "Il Blog"
+    },
+    "auth": {
+      "welcome": "Benvenuto",
+      "signIn": "Accedi",
+      "signUp": "Iscriviti",
+      "welcomeBack": "Bentornato!",
+      "createAccount": "Crea un account",
+      "signInDescription": "Accedi per accedere al tuo account",
+      "signUpDescription": "Unisciti a noi per iniziare a fare acquisti"
+    },
+    "search": {
+      "placeholder": "Cerca prodotti..."
+    },
+    "language": {
+      "select": "Seleziona Lingua",
+      "en": "Inglese",
+      "it": "Italiano",
+      "fr": "Francese",
+      "hi": "Hindi",
+      "ar": "Arabo"
     }
   },
-  "logo": {
-    "first": "Nego",
-    "second": "zio"
+  "loading": {
+    "auth": {
+      "title": "Caricamento autenticazione...",
+      "description": "Attendi mentre prepariamo la tua esperienza di accesso."
+    },
+    "main": {
+      "step1": "Preparazione della tua esperienza di shopping...",
+      "step2": "Caricamento prodotti...",
+      "step3": "Configurazione delle opzioni di consegna...",
+      "step4": "Quasi pronto!",
+      "description": "Attendi mentre configuriamo tutto per te",
+      "complete": "Completato"
+    }
+  },
+  "home": {
+    "featuredProducts": {
+      "title": "Prodotti in Primo Piano",
+      "description": "Scopri la nostra selezione accuratamente curata di prodotti premium",
+      "view": "Vista:",
+      "sortBy": "Ordina per...",
+      "products": "prodotti",
+      "filters": "Filtri",
+      "advancedFilters": "Filtri Avanzati",
+      "priceRange": "Fascia di Prezzo",
+      "stockStatus": "Stato Disponibilità",
+      "quality": "Qualità del Prodotto",
+      "apply": "Applica Filtri",
+      "clear": "Cancella Filtri",
+      "loadMore": "Carica Altri Prodotti"
+    },
+    "popularCategories": {
+      "title": "Categorie Popolari",
+      "description": "Esplora le nostre categorie di prodotti più popolari e trova ciò di cui hai bisogno",
+      "browseAll": "Sfoglia Tutte le Categorie",
+      "explore": "Esplora",
+      "thisCategory": "questa categoria",
+      "shopNow": "Acquista Ora",
+      "stats": {
+        "categories": "Categorie",
+        "products": "Prodotti",
+        "support": "Supporto"
+      }
+    },
+    "shopFeatures": {
+      "title": "Perché Acquistare da Noi",
+      "description": "Sperimenta il miglior shopping online con il nostro impegno per la qualità, la sicurezza e un servizio eccezionale",
+      "learnMore": "Clicca per saperne di più",
+      "stats": {
+        "happyCustomers": "Clienti Felici",
+        "productsSold": "Prodotti Venduti",
+        "satisfactionRate": "Tasso di Soddisfazione",
+        "customerSupport": "Supporto Clienti"
+      },
+      "secureShopping": {
+        "title": "Acquisti Sicuri",
+        "description": "Pagamento sicuro al 100% con crittografia SSL"
+      },
+      "freeDelivery": {
+        "title": "Consegna Gratuita",
+        "description": "Spedizione gratuita per ordini superiori a €50"
+      },
+      "easyPayments": {
+        "title": "Pagamenti Facili",
+        "description": "Molteplici opzioni di pagamento disponibili"
+      },
+      "support247": {
+        "title": "Supporto 24/7",
+        "description": "Supporto clienti dedicato in qualsiasi momento"
+      },
+      "easyReturns": {
+        "title": "Resi Facili",
+        "description": "Politica di reso senza problemi di 30 giorni"
+      },
+      "qualityAssured": {
+        "title": "Qualità Garantita",
+        "description": "Prodotti autentici al 100% garantiti"
+      },
+      "fastProcessing": {
+        "title": "Elaborazione Rapida",
+        "description": "Ordini elaborati entro 24 ore"
+      },
+      "bestPrices": {
+        "title": "Migliori Prezzi",
+        "description": "Prezzi competitivi con ottime offerte"
+      }
+    },
+    "latestBlog": {
+      "title": "Ultimi Post del Blog",
+      "description": "Rimani aggiornato con le nostre ultime intuizioni, suggerimenti e novità del settore",
+      "viewAll": "Visualizza Tutti i Post",
+      "readMore": "Leggi di Più"
+    },
+    "shopByBrands": {
+      "title": "Acquista per Marchio",
+      "description": "Scopri i prodotti dei tuoi marchi di fiducia preferiti",
+      "exploreAll": "Esplora Tutti i Marchi",
+      "trusted": "marchi di fiducia e in aumento",
+      "whyChooseUs": "Perché Sceglierci?",
+      "experience": "Offriamo la migliore esperienza di acquisto con servizi premium",
+      "customerTrusted": "Scelto da migliaia di clienti in tutto il mondo",
+      "freeDelivery": "Consegna Gratuita",
+      "freeDeliveryDesc": "Spedizione gratuita oltre €100",
+      "freeReturn": "Reso Gratuito",
+      "customerSupport": "Supporto Clienti",
+      "customerSupportDesc": "Supporto clienti amichevole 24/7",
+      "moneyBack": "Garanzia Soddisfatti o Rimborsati",
+      "qualityChecked": "Qualità controllata dal nostro team"
+    }
+  },
+  "userDropdown": {
+    "walletBalance": "Saldo del Portafoglio",
+    "myProfile": "Il Mio Profilo",
+    "myOrders": "I Miei Ordini",
+    "wishlist": "Lista dei Desideri",
+    "dashboard": "Pannello di Controllo",
+    "notifications": "Notifiche",
+    "settings": "Impostazioni",
+    "employeeDashboard": "Dashboard Dipendenti",
+    "helpSupport": "Aiuto e Supporto",
+    "adminPanel": "Pannello Amministrativo",
+    "signOut": "Disconnetti",
+    "language": "Lingua"
+  },
+  "premium": {
+    "title": "Passa a Premium",
+    "subtitle": "Sblocca Tutte le Funzionalità Premium",
+    "cta": "Passa a Premium Ora",
+    "tooltip": "Passa a Premium",
+    "footer": {
+      "oneTime": "Pagamento unico",
+      "lifetime": "Accesso a vita",
+      "updates": "Tutti gli aggiornamenti inclusi",
+      "secure": "Pagamento Sicuro",
+      "support": "Supporto Premium"
+    },
+    "features": {
+      "analytics": {
+        "title": "Dashboard Analitica Avanzata",
+        "description": "Approfondimenti e report aziendali completi"
+      },
+      "employees": {
+        "title": "Sistema di Gestione Dipendenti",
+        "description": "Portale dipendenti multi-ruolo con permessi"
+      },
+      "reviews": {
+        "title": "Strumenti di Gestione Recensioni",
+        "description": "Modera e gestisci le recensioni dei clienti"
+      },
+      "subscription": {
+        "title": "Gestione Abbonamenti",
+        "description": "Strumenti per newsletter e campagne email"
+      },
+      "insights": {
+        "title": "Approfondimenti e Report Clienti",
+        "description": "Analisi dettagliate e comportamento dei clienti"
+      },
+      "export": {
+        "title": "Esporta Dati in Excel/CSV",
+        "description": "Esporta tutti i dati per analisi esterne"
+      },
+      "branding": {
+        "title": "Branding Admin Personalizzato",
+        "description": "Personalizza il tuo pannello di amministrazione"
+      },
+      "support": {
+        "title": "Supporto e Aggiornamenti Prioritari",
+        "description": "Supporto rapido e accesso anticipato alle funzionalità"
+      }
+    }
+  },
+  "shop": {
+    "title": "Negozio Prodotti",
+    "description": "Scopri prodotti incredibili su misura per le tue esigenze",
+    "clearFilters": "Cancella Tutti i Filtri",
+    "activeFilters": "Filtri attivi:",
+    "category": "Categoria:",
+    "brand": "Marca:",
+    "price": "Prezzo:",
+    "showFilters": "Mostra Filtri",
+    "hideFilters": "Nascondi Filtri",
+    "filters": "Filtri",
+    "applyFilters": "Applica Filtri",
+    "productsFound": "Prodotto(i) Trovato(i)",
+    "showingAll": "Visualizzazione di tutti i prodotti disponibili"
+  },
+  "deals": {
+    "hero": {
+      "badge": "OFFERTE IMPERDIBILI",
+      "upToOff": "Fino al {maxDiscount}% di SCONTO",
+      "title": "Offerte Imperdibili della Settimana",
+      "description": "Non perdere queste incredibili offerte a tempo limitato! Risparmia alla grande sui tuoi prodotti preferiti con sconti fino al {maxDiscount}%. Scorte limitate.",
+      "stats": {
+        "products": "Prodotti",
+        "avgDiscount": "Sconto Medio",
+        "happyCustomers": "Clienti Felici"
+      }
+    },
+    "features": {
+      "lightning": {
+        "title": "Offerte Lampo",
+        "description": "Vendite flash con offerte a tempo limitato"
+      },
+      "premium": {
+        "title": "Qualità Premium",
+        "description": "Prodotti più votati con le migliori recensioni"
+      },
+      "favorites": {
+        "title": "Preferiti dai Clienti",
+        "description": "Articoli più amati dai nostri clienti"
+      },
+      "limited": {
+        "title": "Tempo Limitato",
+        "description": "Affrettati! Queste offerte non dureranno a lungo"
+      }
+    },
+    "collection": {
+      "title": "Collezione Offerte Imperdibili",
+      "description": "Scopri offerte incredibili su prodotti premium. Quantità limitate disponibili a questi prezzi speciali.",
+      "noDeals": {
+        "title": "Nessuna Offerta Disponibile Al Momento",
+        "description": "Torna presto per offerte e sconti incredibili!",
+        "button": "Sfoglia Tutti i Prodotti"
+      }
+    },
+    "cta": {
+      "title": "Non Perdere Queste Incredibili Offerte!",
+      "description": "Iscriviti alla nostra newsletter per ricevere notifiche su vendite flash, offerte esclusive e nuovi arrivi.",
+      "explore": "Esplora Tutti i Prodotti",
+      "subscribe": "Iscriviti per le Offerte"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Il Nostro Blog",
+      "title": "Storie, Suggerimenti e Approfondimenti",
+      "description": "Scopri le ultime tendenze, i consigli degli esperti e le storie dietro le quinte del nostro team. Rimani informato con la nostra raccolta curata di articoli.",
+      "stats": {
+        "articles": "Articoli",
+        "readers": "Lettori",
+        "authors": "Autori"
+      }
+    },
+    "list": {
+      "title": "Ultimi Articoli",
+      "description": "Rimani aggiornato con i nostri ultimi post e approfondimenti",
+      "readMore": "Leggi di Più",
+      "minRead": "min lettura",
+      "noPosts": {
+        "title": "Nessun Post nel Blog Ancora",
+        "description": "Stiamo lavorando su contenuti incredibili. Torna presto!",
+        "button": "Torna alla Home"
+      }
+    },
+    "newsletter": {
+      "title": "Rimani Aggiornato",
+      "description": "Iscriviti alla nostra newsletter e non perdere mai un aggiornamento. Ricevi gli ultimi articoli, suggerimenti e approfondimenti direttamente nella tua casella di posta.",
+      "subscribe": "Iscriviti alla Newsletter",
+      "browse": "Sfoglia Categorie"
+    }
   }
 }

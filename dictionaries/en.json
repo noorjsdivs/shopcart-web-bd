@@ -1,4 +1,16 @@
 {
+  "wishlist": {
+    "title": "My Wishlist",
+    "subtitle": "Save your favorite items for later",
+    "loginDetails": "Log in to save and view your favorite products. Don't miss out on the items you love!"
+  },
+  "cart": {
+    "title": "Shopping Cart"
+  },
+  "logo": {
+    "first": "Shop",
+    "second": "cart"
+  },
   "header": {
     "menu": {
       "home": "Home",
@@ -7,10 +19,340 @@
       "orders": "Orders",
       "contact": "Contact",
       "blog": "Blog"
+    },
+    "auth": {
+      "welcome": "Welcome",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "welcomeBack": "Welcome Back!",
+      "createAccount": "Create Account",
+      "signInDescription": "Sign in to access your account",
+      "signUpDescription": "Join us to start shopping"
+    },
+    "search": {
+      "placeholder": "Search for products..."
+    },
+    "language": {
+      "select": "Select Language",
+      "en": "English",
+      "it": "Italian",
+      "fr": "French",
+      "hi": "Hindi",
+      "ar": "Arabic"
     }
   },
-  "logo": {
-    "first": "Shop",
-    "second": "cart"
+  "loading": {
+    "auth": {
+      "title": "Loading Authentication...",
+      "description": "Please wait while we prepare your sign-in experience."
+    },
+    "main": {
+      "step1": "Preparing your shopping experience...",
+      "step2": "Loading products...",
+      "step3": "Setting up delivery options...",
+      "step4": "Almost ready!",
+      "description": "Please wait while we set up everything for you",
+      "complete": "Complete"
+    }
+  },
+  "home": {
+    "featuredProducts": {
+      "title": "Featured Products",
+      "description": "Discover our carefully curated selection of premium products",
+      "view": "View:",
+      "sortBy": "Sort by...",
+      "products": "products",
+      "filters": "Filters",
+      "advancedFilters": "Advanced Filters",
+      "priceRange": "Price Range",
+      "stockStatus": "Stock Status",
+      "quality": "Product Quality",
+      "apply": "Apply Filters",
+      "clear": "Clear Filters",
+      "loadMore": "Load More Products"
+    },
+    "popularCategories": {
+      "title": "Popular Categories",
+      "description": "Explore our most popular product categories and find what you need",
+      "browseAll": "Browse All Categories",
+      "explore": "Explore",
+      "thisCategory": "this category",
+      "shopNow": "Shop Now",
+      "stats": {
+        "categories": "Categories",
+        "products": "Products",
+        "support": "Support"
+      }
+    },
+    "shopFeatures": {
+      "title": "Why Shop With Us",
+      "description": "Experience the best online shopping with our commitment to quality, security, and exceptional service",
+      "learnMore": "Click to learn more",
+      "stats": {
+        "happyCustomers": "Happy Customers",
+        "productsSold": "Products Sold",
+        "satisfactionRate": "Satisfaction Rate",
+        "customerSupport": "Customer Support"
+      },
+      "secureShopping": {
+        "title": "Secure Shopping",
+        "description": "100% secure payment with SSL encryption"
+      },
+      "freeDelivery": {
+        "title": "Free Delivery",
+        "description": "Free shipping on orders over $50"
+      },
+      "easyPayments": {
+        "title": "Easy Payments",
+        "description": "Multiple payment options available"
+      },
+      "support247": {
+        "title": "24/7 Support",
+        "description": "Dedicated customer support anytime"
+      },
+      "easyReturns": {
+        "title": "Easy Returns",
+        "description": "30-day hassle-free return policy"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "100% authentic products guaranteed"
+      },
+      "fastProcessing": {
+        "title": "Fast Processing",
+        "description": "Orders processed within 24 hours"
+      },
+      "bestPrices": {
+        "title": "Best Prices",
+        "description": "Competitive pricing with great deals"
+      }
+    },
+    "latestBlog": {
+      "title": "Latest Blog Posts",
+      "description": "Stay updated with our latest insights, tips, and industry news",
+      "viewAll": "View All Posts",
+      "readMore": "Read More"
+    },
+    "shopByBrands": {
+      "title": "Shop By Brands",
+      "description": "Discover products from your favorite trusted brands",
+      "exploreAll": "Explore All Brands",
+      "trusted": "trusted brands and counting",
+      "whyChooseUs": "Why Choose Us?",
+      "experience": "We provide the best shopping experience with premium services",
+      "customerTrusted": "Trusted by thousands of customers worldwide",
+      "freeDelivery": "Free Delivery",
+      "freeDeliveryDesc": "Free shipping over $100",
+      "freeReturn": "Free Return",
+      "customerSupport": "Customer Support",
+      "customerSupportDesc": "Friendly 27/7 customer support",
+      "moneyBack": "Money Back guarantee",
+      "qualityChecked": "Quality checked by our team"
+    }
+  },
+  "userDropdown": {
+    "walletBalance": "Wallet Balance",
+    "myProfile": "My Profile",
+    "myOrders": "My Orders",
+    "wishlist": "Wishlist",
+    "dashboard": "Dashboard",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "employeeDashboard": "Employee Dashboard",
+    "helpSupport": "Help & Support",
+    "adminPanel": "Admin Panel",
+    "signOut": "Sign Out",
+    "language": "Language"
+  },
+  "premium": {
+    "title": "Go Premium",
+    "subtitle": "Unlock All Premium Features",
+    "cta": "Upgrade to Premium Now",
+    "tooltip": "Upgrade to Premium",
+    "footer": {
+      "oneTime": "One-time payment",
+      "lifetime": "Lifetime access",
+      "updates": "All updates included",
+      "secure": "Secure Payment",
+      "support": "Premium Support"
+    },
+    "features": {
+      "analytics": {
+        "title": "Advanced Analytics Dashboard",
+        "description": "Comprehensive business insights and reports"
+      },
+      "employees": {
+        "title": "Employee Management System",
+        "description": "Multi-role employee portal with permissions"
+      },
+      "reviews": {
+        "title": "Review Management Tools",
+        "description": "Moderate and manage customer reviews"
+      },
+      "subscription": {
+        "title": "Subscription Management",
+        "description": "Newsletter and email campaign tools"
+      },
+      "insights": {
+        "title": "Customer Insights & Reports",
+        "description": "Detailed analytics and customer behavior"
+      },
+      "export": {
+        "title": "Export Data to Excel/CSV",
+        "description": "Export all data for external analysis"
+      },
+      "branding": {
+        "title": "Custom Admin Branding",
+        "description": "Personalize your admin panel"
+      },
+      "support": {
+        "title": "Priority Support & Updates",
+        "description": "Fast support and early feature access"
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "We're Here to Help",
+      "title": "Contact Us",
+      "description": "Have questions about our products or need assistance? We'd love to hear from you. Our team is here to help with any inquiries you may have."
+    },
+    "info": {
+      "title": "Contact Information",
+      "visitUs": "Visit Our Store",
+      "callUs": "Call Us",
+      "emailUs": "Email Support",
+      "businessHours": "Business Hours",
+      "quickResponse": "Quick Response",
+      "quickResponseText": "We aim to respond to all inquiries within 24 hours."
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Brief description of your inquiry",
+      "message": "Message",
+      "messagePlaceholder": "Please provide detailed information about your inquiry...",
+      "sendButton": "Send Message",
+      "sending": "Sending Message...",
+      "successTitle": "Message Sent Successfully!",
+      "successMessage": "Thank you for contacting us. We've received your message and will get back to you within 24 hours.",
+      "close": "Close"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find quick answers to common questions about our services and policies.",
+      "questions": [
+        {
+          "q": "What are your shipping policies?",
+          "a": "We offer free shipping on orders over $50 within the continental US. International shipping is available with additional charges."
+        },
+        {
+          "q": "How can I track my order?",
+          "a": "Once your order ships, you'll receive a tracking number via email. You can also track orders in your account dashboard."
+        },
+        {
+          "q": "What is your return policy?",
+          "a": "We accept returns within 30 days of purchase. Items must be unused and in original packaging for a full refund."
+        },
+        {
+          "q": "Do you offer customer support?",
+          "a": "Yes! Our customer service team is available Monday-Friday 9AM-6PM EST via phone, email, or live chat."
+        }
+      ]
+    }
+  },
+  "shop": {
+    "title": "Shop Products",
+    "description": "Discover amazing products tailored to your needs",
+    "clearFilters": "Clear All Filters",
+    "activeFilters": "Active filters:",
+    "category": "Category:",
+    "brand": "Brand:",
+    "price": "Price:",
+    "showFilters": "Show Filters",
+    "hideFilters": "Hide Filters",
+    "filters": "Filters",
+    "applyFilters": "Apply Filters",
+    "productsFound": "Product(s) Found",
+    "showingAll": "Showing all available products"
+  },
+  "deals": {
+    "hero": {
+      "badge": "HOT DEALS",
+      "upToOff": "Up to {maxDiscount}% OFF",
+      "title": "Weekly Hot Deals",
+      "description": "Don't miss out on these incredible limited-time offers! Save big on your favorite products with discounts up to {maxDiscount}% off. Limited stock available.",
+      "stats": {
+        "products": "Products",
+        "avgDiscount": "Avg. Discount",
+        "happyCustomers": "Happy Customers"
+      }
+    },
+    "features": {
+      "lightning": {
+        "title": "Lightning Deals",
+        "description": "Flash sales with limited time offers"
+      },
+      "premium": {
+        "title": "Premium Quality",
+        "description": "Top-rated products with best reviews"
+      },
+      "favorites": {
+        "title": "Customer Favorites",
+        "description": "Most loved items by our customers"
+      },
+      "limited": {
+        "title": "Limited Time",
+        "description": "Hurry! These deals won't last long"
+      }
+    },
+    "collection": {
+      "title": "Hot Deals Collection",
+      "description": "Discover amazing deals on premium products. Limited quantities available at these special prices.",
+      "noDeals": {
+        "title": "No Deals Available Right Now",
+        "description": "Check back soon for amazing deals and discounts!",
+        "button": "Browse All Products"
+      }
+    },
+    "cta": {
+      "title": "Don't Miss Out on These Amazing Deals!",
+      "description": "Subscribe to our newsletter to get notified about flash sales, exclusive deals, and new arrivals.",
+      "explore": "Explore All Products",
+      "subscribe": "Subscribe for Deals"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Our Blog",
+      "title": "Stories, Tips & Insights",
+      "description": "Discover the latest trends, expert advice, and behind-the-scenes stories from our team. Stay informed with our curated collection of articles.",
+      "stats": {
+        "articles": "Articles",
+        "readers": "Readers",
+        "authors": "Authors"
+      }
+    },
+    "list": {
+      "title": "Latest Articles",
+      "description": "Stay updated with our latest posts and insights",
+      "readMore": "Read More",
+      "minRead": "min read",
+      "noPosts": {
+        "title": "No Blog Posts Yet",
+        "description": "We're working on some amazing content. Check back soon!",
+        "button": "Back to Home"
+      }
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter and never miss an update. Get the latest articles, tips, and insights delivered straight to your inbox.",
+      "subscribe": "Subscribe Newsletter",
+      "browse": "Browse Categories"
+    }
   }
 }
